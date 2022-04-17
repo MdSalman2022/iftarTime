@@ -1,6 +1,6 @@
 (function() {
     var start = new Date;
-    start.setHours(18, 22, 0); // 11pm
+    start.setHours(18, 22, 0); 
   
     function pad(num) {
       return ("0" + parseInt(num)).substr(-2);
@@ -8,7 +8,7 @@
   
     function tick() {
       var now = new Date;
-      if (now > start) { // too late, go to tomorrow
+      if (now > start) { 
         start.setDate(start.getDate() + 1);
       }
       var remain = ((start - now) / 1000);
