@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    /* font-family: 'IBM Plex Mono', monospace; */
+    font-family: 'Staatliches', cursive;
+    background-color: #1b222a;
+    color: white;
+}
+h1{
+    font-size: 90px;
+    letter-spacing: 3px;
+}
+.main-content{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 40px;
+}
+.countdown{
+    display: flex;
+    text-align: center;
+}
+span{
+    
+    color: white;
+}
+.countdown>div{
+    width: 180px;
+    padding: 50px 10px;
+    
+}
+
+.hours{
+    padding: 20px;
+    background-color: #101920;
+    color: white;
+    box-shadow: #000000a6 0px 5px 15px;
+    font-size: 90px;
+    border-radius: 10px;
+}
+
+.mins{
+    padding: 20px;
+    background-color: #101920;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.65) 0px 5px 15px;
+    font-size: 90px;
+    border-radius: 10px;
+}
+
+.sec{
+    padding: 20px;
+    background-color: #101920;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.65) 0px 5px 15px;
+    font-size: 90px;
+    border-radius: 10px;
+}
